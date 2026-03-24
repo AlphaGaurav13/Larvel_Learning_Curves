@@ -1,3 +1,33 @@
 Laravel: PHP FRAME WORK WHICH FOLLOW MVC MODEL
 
 TO INSTALL THE LARVEL USE COMMAND: composer global require laravel/installer
+
+To create a project use command: laravel new example-app
+
+
+
+To start the php project: php artisan serve
+
+
+
+#What is MVC?
+-> it is stand for model view controller.
+-> MVC is a software design pattern to develop reliable software application.
+-> In MVC we divide applications into three parts
+1) Model : write the buisness logic, database communication.
+2) view : User Interface (code we write to display on the UI).
+3) controller : handle user interaction and select a view  to render, communicate Model and View.
+
+
+Working flow -> 
+
+
+end user ---> Controller ---> view ---> application
+             /\      |
+             |       | request
+response     |       |  
+             |       v
+             |<---- model
+
+
+#dependecies are stored inside the vendor folder
