@@ -1,0 +1,3 @@
+Laravel: PHP FRAME WORK WHICH FOLLOW MVC MODEL
+
+TO INSTALL THE LARVEL USE COMMAND: composer global require laravel/installer
